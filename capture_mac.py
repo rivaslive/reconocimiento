@@ -9,7 +9,7 @@ import sys
 nombre = sys.argv[1]
 
 #Directorio donde se encuentra la carpeta con el nombre de la persona
-dir_faces = '../FaceRecognition2\\att_faces\\orl_faces'
+dir_faces = '../reconocimiento//att_faces//orl_faces'
 path = os.path.join(dir_faces, nombre)
 print(path)
 
